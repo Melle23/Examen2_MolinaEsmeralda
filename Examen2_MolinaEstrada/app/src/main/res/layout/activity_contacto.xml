@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/img_Perfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circulo" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esmeralda Molina"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtCargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secretaría de Salud Pública"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="lucia.peña@mail.com"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(644) 555 5555"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar a Lucía"
+        android:backgroundTint="@color/gray"
+        android:background="@drawable/rectangulo_shape"
+        android:textColor="@android:color/black"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
+        android:paddingVertical="10dp"
+        />
+
+</LinearLayout>

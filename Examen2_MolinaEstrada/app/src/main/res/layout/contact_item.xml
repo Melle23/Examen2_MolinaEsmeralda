@@ -1,0 +1,32 @@
+<!-- res/layout/contact_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_Nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nombre"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_Empresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Empresa"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+
+    <ImageButton
+        android:id="@+id/btn_Eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete_svgrepo_com"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />
+</LinearLayout>

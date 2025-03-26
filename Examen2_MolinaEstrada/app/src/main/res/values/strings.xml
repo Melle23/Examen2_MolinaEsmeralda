@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Examen2_MolinaEstrada</string>
+    <string name="contacto_Agregar">Agregar contacto</string>
+    <string name="agenda">Mi agenda de contactos</string>
+    <string name="nuevo_Contacto">Nuevo contacto</string>
+</resources>
